@@ -1,0 +1,7 @@
+C:\Cs Projects\Embedded programming\Embedded programming\bin\Debug\Embedded programming.exe.config
+C:\Cs Projects\Embedded programming\Embedded programming\bin\Debug\Embedded programming.exe
+C:\Cs Projects\Embedded programming\Embedded programming\bin\Debug\Embedded programming.pdb
+C:\Cs Projects\Embedded programming\Embedded programming\obj\Debug\Embedded programming.csprojAssemblyReference.cache
+C:\Cs Projects\Embedded programming\Embedded programming\obj\Debug\Embedded programming.csproj.CoreCompileInputs.cache
+C:\Cs Projects\Embedded programming\Embedded programming\obj\Debug\Embedded programming.exe
+C:\Cs Projects\Embedded programming\Embedded programming\obj\Debug\Embedded programming.pdb
