@@ -12,13 +12,18 @@ namespace Embedded_programming
         static void Main()
         {
             ConsoleDrawingTool drawTool = new ConsoleDrawingTool();
-            Coordinate coord = new Coordinate(40, 15);
-            ConsoleCharAt cChar = new ConsoleCharAt('0', coord);
-            Console.SetWindowSize(80, 25);
-            drawTool.DrawChar(cChar);
+            ConsoleCharAt cChar1 = new ConsoleCharAt('0', new Coordinate(20, 15));
+            ConsoleCharAt cChar2 = new ConsoleCharAt('0', new Coordinate(40, 15));
+            ConsoleCharAt cChar3 = new ConsoleCharAt('0', new Coordinate(60, 15));
+            Console.SetWindowSize(drawTool.getConsoleWidth(), drawTool.getConsoleHeight());
+            drawTool.PutToBuffer(cChar1);
+            drawTool.PutToBuffer(cChar2);
+            drawTool.PutToBuffer(cChar3);
+            drawTool.Display(drawTool.getBuffer());
             for (int i = 0; i < 10; i++)
             {
-                drawTool.MoveBy(cChar, 2, drawTool);
+                drawTool.MoveInDirection(cChar1, 'd', 2, drawTool);
+                drawTool.MoveInDirection(cChar2, 'u', 1, drawTool);
                 Thread.Sleep(1000);
             }
             Console.Read();
